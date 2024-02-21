@@ -7,7 +7,7 @@ function List() {
   const handleClick = () => {
     const newInput = inputRef.current.value;
     setInputs((prevInputs) => [...prevInputs, newInput]);
-    inputRef.current.value = ""; // clear the input field
+    inputRef.current.value = "";
   };
 
   return (
